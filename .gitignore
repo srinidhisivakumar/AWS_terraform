@@ -1,0 +1,22 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+crash.log
+
+# Ignore Terraform execution plan files
+*.tfplan
+
+# Ignore core Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files (optional)
+*.tfvars
+*.tfvars.json
+
+# Ignore IDE/editor config (optional)
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
